@@ -1,0 +1,1500 @@
+# Created at 2021-02-09T17:28:15.843
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created at 2021-02-09T17:28:20.741
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LUCAS', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\LUCAS\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fea2f552d6fb7d495039016353e55856
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+
+# Created at 2021-02-09T17:28:20.742
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.744
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2021-02-09T17:28:20.744
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.745
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2021-02-09T17:28:20.746
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.747
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2021-02-09T17:28:20.749
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.750
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+# Created at 2021-02-09T17:28:20.753
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.754
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+# Created at 2021-02-09T17:28:20.755
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.756
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2021-02-09T17:28:20.757
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.758
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2021-02-09T17:28:20.759
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.759
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2021-02-09T17:28:20.760
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.761
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2021-02-09T17:28:20.762
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.763
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2021-02-09T17:28:20.764
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.765
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2021-02-09T17:28:20.765
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.767
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2021-02-09T17:28:20.770
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.775
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2021-02-09T17:28:20.776
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.777
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2021-02-09T17:28:20.777
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.778
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2021-02-09T17:28:20.779
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.779
+Unexpected IOException with stream: 	at com.vytrack.utilities.BrowserUtils.clickWithWait(BrowserUtils.java:354)
+
+# Created at 2021-02-09T17:28:20.780
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.781
+Unexpected IOException with stream: 	at com.vytrack.pages.BasePage.navigateToModule(BasePage.java:105)
+
+# Created at 2021-02-09T17:28:20.782
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.782
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(NavigationMenuStepDefs.java:48)
+
+# Created at 2021-02-09T17:28:20.783
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.785
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2021-02-09T17:28:20.785
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.786
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2021-02-09T17:28:20.788
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.789
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2021-02-09T17:28:20.790
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.790
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2021-02-09T17:28:20.791
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.792
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+
+# Created at 2021-02-09T17:28:20.793
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.794
+Unexpected IOException with stream: 	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+
+# Created at 2021-02-09T17:28:20.795
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.796
+Unexpected IOException with stream: 	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+
+# Created at 2021-02-09T17:28:20.797
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.799
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+
+# Created at 2021-02-09T17:28:20.803
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.803
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+
+# Created at 2021-02-09T17:28:20.805
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.806
+Unexpected IOException with stream: 	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+
+# Created at 2021-02-09T17:28:20.806
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.807
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+
+# Created at 2021-02-09T17:28:20.808
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.809
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+
+# Created at 2021-02-09T17:28:20.810
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.811
+Unexpected IOException with stream: 	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+
+# Created at 2021-02-09T17:28:20.812
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.812
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+
+# Created at 2021-02-09T17:28:20.813
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.814
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+
+# Created at 2021-02-09T17:28:20.814
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.816
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2021-02-09T17:28:20.818
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.820
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2021-02-09T17:28:20.821
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.822
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2021-02-09T17:28:20.822
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.823
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2021-02-09T17:28:20.824
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.826
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2021-02-09T17:28:20.827
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.828
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2021-02-09T17:28:20.829
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.830
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2021-02-09T17:28:20.831
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.831
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+
+# Created at 2021-02-09T17:28:20.832
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.833
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+
+# Created at 2021-02-09T17:28:20.835
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.836
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2021-02-09T17:28:20.837
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.838
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2021-02-09T17:28:20.839
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.840
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2021-02-09T17:28:20.841
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.842
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2021-02-09T17:28:20.842
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.843
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2021-02-09T17:28:20.843
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.844
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+
+# Created at 2021-02-09T17:28:20.844
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.845
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2021-02-09T17:28:20.846
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.847
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2021-02-09T17:28:20.848
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.848
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2021-02-09T17:28:20.850
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.851
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2021-02-09T17:28:20.852
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.853
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2021-02-09T17:28:20.855
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.856
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2021-02-09T17:28:20.857
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.857
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2021-02-09T17:28:20.858
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.858
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2021-02-09T17:28:20.859
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.859
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2021-02-09T17:28:20.860
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:20.861
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2021-02-09T17:28:20.862
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:25.871
+Unexpected IOException with stream: [
+
+# Created at 2021-02-09T17:28:25.872
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:25.872
+Unexpected IOException with stream: 6
+
+# Created at 2021-02-09T17:28:25.872
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:25.873
+Unexpected IOException with stream: 2
+
+# Created at 2021-02-09T17:28:25.873
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:25.873
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:25.874
+Unexpected IOException with stream: 4
+
+# Created at 2021-02-09T17:28:25.874
+Unexpected IOException with stream: 5
+
+# Created at 2021-02-09T17:28:25.874
+Unexpected IOException with stream: 0
+
+# Created at 2021-02-09T17:28:25.875
+Unexpected IOException with stream: 5
+
+# Created at 2021-02-09T17:28:25.875
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:25.875
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:25.876
+Unexpected IOException with stream: 7
+
+# Created at 2021-02-09T17:28:25.876
+Unexpected IOException with stream: 0
+
+# Created at 2021-02-09T17:28:25.876
+Unexpected IOException with stream: ]
+
+# Created at 2021-02-09T17:28:25.877
+Unexpected IOException with stream: [
+
+# Created at 2021-02-09T17:28:25.877
+Unexpected IOException with stream: W
+
+# Created at 2021-02-09T17:28:25.877
+Unexpected IOException with stream: A
+
+# Created at 2021-02-09T17:28:25.879
+Unexpected IOException with stream: R
+
+# Created at 2021-02-09T17:28:25.879
+Unexpected IOException with stream: N
+
+# Created at 2021-02-09T17:28:25.881
+Unexpected IOException with stream: I
+
+# Created at 2021-02-09T17:28:25.881
+Unexpected IOException with stream: N
+
+# Created at 2021-02-09T17:28:25.881
+Unexpected IOException with stream: G
+
+# Created at 2021-02-09T17:28:25.881
+Unexpected IOException with stream: ]
+
+# Created at 2021-02-09T17:28:25.881
+Unexpected IOException with stream: :
+
+# Created at 2021-02-09T17:28:25.883
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:25.883
+Unexpected IOException with stream: T
+
+# Created at 2021-02-09T17:28:25.883
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:25.883
+Unexpected IOException with stream: m
+
+# Created at 2021-02-09T17:28:25.883
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:25.883
+Unexpected IOException with stream: d
+
+# Created at 2021-02-09T17:28:25.884
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:25.884
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:25.884
+Unexpected IOException with stream: u
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream: c
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:25.886
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:25.888
+Unexpected IOException with stream: c
+
+# Created at 2021-02-09T17:28:25.898
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:25.898
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:25.899
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:25.899
+Unexpected IOException with stream: g
+
+# Created at 2021-02-09T17:28:25.899
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:25.900
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:25.900
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:25.901
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:25.901
+Unexpected IOException with stream: C
+
+# Created at 2021-02-09T17:28:25.901
+Unexpected IOException with stream: h
+
+# Created at 2021-02-09T17:28:25.902
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:25.902
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:25.903
+Unexpected IOException with stream: m
+
+# Created at 2021-02-09T17:28:25.903
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:25.903
+Unexpected IOException with stream: ,
+
+# Created at 2021-02-09T17:28:25.904
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:25.904
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:25.904
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:25.905
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:25.905
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:25.905
+Unexpected IOException with stream: y
+
+# Created at 2021-02-09T17:28:25.906
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:25.906
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:25.907
+Unexpected IOException with stream: g
+
+# Created at 2021-02-09T17:28:25.907
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:25.907
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:25.908
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:25.908
+Unexpected IOException with stream: 
+
+# Created at 2021-02-09T17:28:25.908
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.886
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LUCAS', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\LUCAS\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fea2f552d6fb7d495039016353e55856
+*** Element info: {Using=xpath, value=//span[normalize-space()='Customers' and contains(@class, 'title title-level-1')]}
+
+# Created at 2021-02-09T17:28:33.887
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.887
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2021-02-09T17:28:33.888
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.888
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2021-02-09T17:28:33.888
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.889
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2021-02-09T17:28:33.889
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.890
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+# Created at 2021-02-09T17:28:33.893
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.893
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+# Created at 2021-02-09T17:28:33.894
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.894
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2021-02-09T17:28:33.895
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.895
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2021-02-09T17:28:33.896
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.896
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2021-02-09T17:28:33.896
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.897
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2021-02-09T17:28:33.897
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.897
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2021-02-09T17:28:33.898
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.898
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2021-02-09T17:28:33.898
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.899
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2021-02-09T17:28:33.899
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.899
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2021-02-09T17:28:33.900
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.900
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2021-02-09T17:28:33.900
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.901
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2021-02-09T17:28:33.901
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.901
+Unexpected IOException with stream: 	at com.vytrack.utilities.BrowserUtils.clickWithWait(BrowserUtils.java:354)
+
+# Created at 2021-02-09T17:28:33.902
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.902
+Unexpected IOException with stream: 	at com.vytrack.pages.BasePage.navigateToModule(BasePage.java:105)
+
+# Created at 2021-02-09T17:28:33.902
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.902
+Unexpected IOException with stream: 	at com.vytrack.step_definitions.NavigationMenuStepDefs.the_user_navigates_to(NavigationMenuStepDefs.java:48)
+
+# Created at 2021-02-09T17:28:33.903
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.903
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2021-02-09T17:28:33.904
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.906
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2021-02-09T17:28:33.906
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.907
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2021-02-09T17:28:33.907
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.907
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2021-02-09T17:28:33.908
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.909
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+
+# Created at 2021-02-09T17:28:33.909
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.910
+Unexpected IOException with stream: 	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+
+# Created at 2021-02-09T17:28:33.911
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.911
+Unexpected IOException with stream: 	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+
+# Created at 2021-02-09T17:28:33.911
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.912
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+
+# Created at 2021-02-09T17:28:33.912
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.912
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+
+# Created at 2021-02-09T17:28:33.913
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.913
+Unexpected IOException with stream: 	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+
+# Created at 2021-02-09T17:28:33.913
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.913
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+
+# Created at 2021-02-09T17:28:33.914
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.914
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+
+# Created at 2021-02-09T17:28:33.914
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.915
+Unexpected IOException with stream: 	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+
+# Created at 2021-02-09T17:28:33.915
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.915
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+
+# Created at 2021-02-09T17:28:33.915
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.916
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+
+# Created at 2021-02-09T17:28:33.916
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.916
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2021-02-09T17:28:33.917
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.917
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2021-02-09T17:28:33.917
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.917
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2021-02-09T17:28:33.918
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.918
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2021-02-09T17:28:33.918
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.919
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2021-02-09T17:28:33.919
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.919
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2021-02-09T17:28:33.919
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.920
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2021-02-09T17:28:33.920
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.921
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+
+# Created at 2021-02-09T17:28:33.921
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.921
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+
+# Created at 2021-02-09T17:28:33.922
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.923
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2021-02-09T17:28:33.923
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.923
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2021-02-09T17:28:33.924
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.924
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2021-02-09T17:28:33.925
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.925
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2021-02-09T17:28:33.926
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.927
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2021-02-09T17:28:33.928
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.928
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)
+
+# Created at 2021-02-09T17:28:33.929
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.929
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2021-02-09T17:28:33.929
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.929
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2021-02-09T17:28:33.930
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.930
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2021-02-09T17:28:33.930
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.931
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2021-02-09T17:28:33.931
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.931
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2021-02-09T17:28:33.931
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.932
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2021-02-09T17:28:33.932
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.932
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2021-02-09T17:28:33.933
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.933
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2021-02-09T17:28:33.933
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.934
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2021-02-09T17:28:33.934
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:33.934
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2021-02-09T17:28:33.935
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:38.948
+Unexpected IOException with stream: [
+
+# Created at 2021-02-09T17:28:38.948
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:38.949
+Unexpected IOException with stream: 6
+
+# Created at 2021-02-09T17:28:38.950
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:38.950
+Unexpected IOException with stream: 2
+
+# Created at 2021-02-09T17:28:38.952
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:38.952
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:38.952
+Unexpected IOException with stream: 4
+
+# Created at 2021-02-09T17:28:38.953
+Unexpected IOException with stream: 5
+
+# Created at 2021-02-09T17:28:38.953
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:38.954
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:38.954
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:38.954
+Unexpected IOException with stream: 9
+
+# Created at 2021-02-09T17:28:38.955
+Unexpected IOException with stream: 4
+
+# Created at 2021-02-09T17:28:38.955
+Unexpected IOException with stream: 7
+
+# Created at 2021-02-09T17:28:38.955
+Unexpected IOException with stream: ]
+
+# Created at 2021-02-09T17:28:38.955
+Unexpected IOException with stream: [
+
+# Created at 2021-02-09T17:28:38.956
+Unexpected IOException with stream: W
+
+# Created at 2021-02-09T17:28:38.957
+Unexpected IOException with stream: A
+
+# Created at 2021-02-09T17:28:38.958
+Unexpected IOException with stream: R
+
+# Created at 2021-02-09T17:28:38.958
+Unexpected IOException with stream: N
+
+# Created at 2021-02-09T17:28:38.958
+Unexpected IOException with stream: I
+
+# Created at 2021-02-09T17:28:38.958
+Unexpected IOException with stream: N
+
+# Created at 2021-02-09T17:28:38.959
+Unexpected IOException with stream: G
+
+# Created at 2021-02-09T17:28:38.959
+Unexpected IOException with stream: ]
+
+# Created at 2021-02-09T17:28:38.959
+Unexpected IOException with stream: :
+
+# Created at 2021-02-09T17:28:38.960
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:38.960
+Unexpected IOException with stream: T
+
+# Created at 2021-02-09T17:28:38.960
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:38.960
+Unexpected IOException with stream: m
+
+# Created at 2021-02-09T17:28:38.961
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:38.961
+Unexpected IOException with stream: d
+
+# Created at 2021-02-09T17:28:38.962
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:38.962
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:38.962
+Unexpected IOException with stream: u
+
+# Created at 2021-02-09T17:28:38.963
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:38.963
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:38.963
+Unexpected IOException with stream: c
+
+# Created at 2021-02-09T17:28:38.964
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:38.964
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:38.964
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:38.965
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:38.965
+Unexpected IOException with stream: c
+
+# Created at 2021-02-09T17:28:38.966
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:38.966
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:38.968
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:38.968
+Unexpected IOException with stream: g
+
+# Created at 2021-02-09T17:28:38.969
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:38.969
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:38.970
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:38.971
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:38.971
+Unexpected IOException with stream: C
+
+# Created at 2021-02-09T17:28:38.971
+Unexpected IOException with stream: h
+
+# Created at 2021-02-09T17:28:38.972
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:38.972
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:38.972
+Unexpected IOException with stream: m
+
+# Created at 2021-02-09T17:28:38.972
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:38.973
+Unexpected IOException with stream: ,
+
+# Created at 2021-02-09T17:28:38.973
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:38.973
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:38.973
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:38.974
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:38.974
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:38.974
+Unexpected IOException with stream: y
+
+# Created at 2021-02-09T17:28:38.974
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:38.975
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:38.975
+Unexpected IOException with stream: g
+
+# Created at 2021-02-09T17:28:38.975
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:38.976
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:38.976
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:38.977
+Unexpected IOException with stream: 
+
+# Created at 2021-02-09T17:28:38.977
+Unexpected IOException with stream: 
+
+
+# Created at 2021-02-09T17:28:50.967
+Unexpected IOException with stream: [
+
+# Created at 2021-02-09T17:28:50.968
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:50.968
+Unexpected IOException with stream: 6
+
+# Created at 2021-02-09T17:28:50.969
+Unexpected IOException with stream: 1
+
+# Created at 2021-02-09T17:28:50.969
+Unexpected IOException with stream: 2
+
+# Created at 2021-02-09T17:28:50.970
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:50.970
+Unexpected IOException with stream: 8
+
+# Created at 2021-02-09T17:28:50.972
+Unexpected IOException with stream: 4
+
+# Created at 2021-02-09T17:28:50.974
+Unexpected IOException with stream: 5
+
+# Created at 2021-02-09T17:28:50.975
+Unexpected IOException with stream: 3
+
+# Created at 2021-02-09T17:28:50.976
+Unexpected IOException with stream: 0
+
+# Created at 2021-02-09T17:28:50.977
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:50.977
+Unexpected IOException with stream: 9
+
+# Created at 2021-02-09T17:28:50.978
+Unexpected IOException with stream: 6
+
+# Created at 2021-02-09T17:28:50.978
+Unexpected IOException with stream: 7
+
+# Created at 2021-02-09T17:28:50.979
+Unexpected IOException with stream: ]
+
+# Created at 2021-02-09T17:28:50.979
+Unexpected IOException with stream: [
+
+# Created at 2021-02-09T17:28:50.980
+Unexpected IOException with stream: W
+
+# Created at 2021-02-09T17:28:50.980
+Unexpected IOException with stream: A
+
+# Created at 2021-02-09T17:28:50.981
+Unexpected IOException with stream: R
+
+# Created at 2021-02-09T17:28:50.981
+Unexpected IOException with stream: N
+
+# Created at 2021-02-09T17:28:50.982
+Unexpected IOException with stream: I
+
+# Created at 2021-02-09T17:28:50.982
+Unexpected IOException with stream: N
+
+# Created at 2021-02-09T17:28:50.983
+Unexpected IOException with stream: G
+
+# Created at 2021-02-09T17:28:50.983
+Unexpected IOException with stream: ]
+
+# Created at 2021-02-09T17:28:50.984
+Unexpected IOException with stream: :
+
+# Created at 2021-02-09T17:28:50.984
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:50.985
+Unexpected IOException with stream: T
+
+# Created at 2021-02-09T17:28:50.986
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:50.987
+Unexpected IOException with stream: m
+
+# Created at 2021-02-09T17:28:50.988
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:50.989
+Unexpected IOException with stream: d
+
+# Created at 2021-02-09T17:28:50.990
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:50.990
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:50.991
+Unexpected IOException with stream: u
+
+# Created at 2021-02-09T17:28:50.991
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:50.992
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:50.992
+Unexpected IOException with stream: c
+
+# Created at 2021-02-09T17:28:50.993
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:50.993
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:50.994
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:50.994
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:50.994
+Unexpected IOException with stream: c
+
+# Created at 2021-02-09T17:28:50.995
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:50.996
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:50.996
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:50.998
+Unexpected IOException with stream: g
+
+# Created at 2021-02-09T17:28:50.999
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:51.000
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:51.001
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:51.001
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:51.002
+Unexpected IOException with stream: C
+
+# Created at 2021-02-09T17:28:51.003
+Unexpected IOException with stream: h
+
+# Created at 2021-02-09T17:28:51.003
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:51.004
+Unexpected IOException with stream: o
+
+# Created at 2021-02-09T17:28:51.004
+Unexpected IOException with stream: m
+
+# Created at 2021-02-09T17:28:51.005
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:51.006
+Unexpected IOException with stream: ,
+
+# Created at 2021-02-09T17:28:51.006
+Unexpected IOException with stream:  
+
+# Created at 2021-02-09T17:28:51.007
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:51.007
+Unexpected IOException with stream: e
+
+# Created at 2021-02-09T17:28:51.008
+Unexpected IOException with stream: t
+
+# Created at 2021-02-09T17:28:51.008
+Unexpected IOException with stream: r
+
+# Created at 2021-02-09T17:28:51.009
+Unexpected IOException with stream: y
+
+# Created at 2021-02-09T17:28:51.010
+Unexpected IOException with stream: i
+
+# Created at 2021-02-09T17:28:51.011
+Unexpected IOException with stream: n
+
+# Created at 2021-02-09T17:28:51.012
+Unexpected IOException with stream: g
+
+# Created at 2021-02-09T17:28:51.015
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:51.016
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:51.017
+Unexpected IOException with stream: .
+
+# Created at 2021-02-09T17:28:51.017
+Unexpected IOException with stream: 
+
+# Created at 2021-02-09T17:28:51.018
+Unexpected IOException with stream: 
+
+
